@@ -20,7 +20,7 @@ public class publish {
      **/
     public static void main(String[] args) {
         //服务发布地址,ip为本机，端口自己定义,访问wsdl需要加?wsdl
-        String address = "http://172.25.14.37:9577/web_service/weather";
+        String address = "http://192.168.0.108:9277/web_service/weather";
         //服务的实现类
         Object implementor = new WeatherServiceImpl();
         //发布服务
